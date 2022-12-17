@@ -16,35 +16,55 @@
 
 ## Test Cases
 1.  Correct Case
+    ```
     [[1,1]]]
     2
+    ```
 2.  Correct Case
+    ```
     [[5,6]]
     4
+    ```
 3.  Invalid Array
+    ```
     [[x2,54]]
     23
+    ```
 4.  Invalid Array
+    ```
     [[1,2,3],]
     23
+    ```
 5.  Invalid passengers
+    ```
     [[1,4],[3,4],[5,3]]
     3d4
+    ```
 6. More than seating capacity
+    ```
     [[4,5],[23,3],[2,4],[12,4]]
     34980
+    ```
 7. Single Row
+    ```
     [[1,54]]
     54
+    ```
 8. Single Col
+    ```
     [[54,1]]
     54
+    ```
 9. Negative Size
-    [[-12,9],[5,-7]]
+    ```
+    [[-12,9],[5,-7]]    
     45
+    ```
 10. Valid
+    ```
     [[1,2],[3,4], 
     23
+    ```
 ## Environment Used
     1. OS: Manjaro Linux 
     2. IDE: Intellij Idea CE 2022.2.4 
